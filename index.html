@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SAHIHI MEDIA</title>
+<!-- ==== CSS ==== -->
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar">
+    <h1 class="logo">SAHIHI MEDIA</h1>
+    <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>  
+        <li><a href="#"></a>Graphics</li>  
+        <li><a href="#"></a>Explore</li>  
+        <li><a href="#"></a>About</li>  
+        <li class="ctn"><a href="#"></a>Contact</li>  
+    </ul>
+        <img src="./image/menu.png" alt="" class="menu-btn">
+</nav>
+
+    <header>
+        <div class="header-content">
+        <h2>Visualizing your Thoughts</h2>  
+        <div class="line"></div>
+        <h1>EXPLORE A VISUAL WORLD</h1>
+       <a href="#" class="ctn">Learn More</a>
+    </div>
+    </header>
+
+    <!-- == Events == -->
+    <section class="events">
+        <div class="title">
+            <h1>OUR DISPLAY</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./image/5fe298b7b7fb43e5aa516757689c33c8.jpg" alt="">
+                <h4>Campus Untold</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam excepturi culpa consectetur minus perspiciatis voluptas incidunt explicabo sapiente at, blanditiis commodi assumenda impedit facilis ex architecto natus, adipisci eos quibusdam?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./image/944f790e266244489156b0d5302b77f5.jpg" alt="">
+                <h4>Music Videos</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam excepturi culpa consectetur minus perspiciatis voluptas incidunt explicabo sapiente at, blanditiis commodi assumenda impedit facilis ex architecto natus, adipisci eos quibusdam?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./image/bc1cc776a6b241bb9590cd827ecbb11c.jpg" alt="">
+                <h4>Graphics Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam excepturi culpa consectetur minus perspiciatis voluptas incidunt explicabo sapiente at, blanditiis commodi assumenda impedit facilis ex architecto natus, adipisci eos quibusdam?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE OUR WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dignissimos unde qui cumque vitae architecto dolor amet modi, quasi eligendi sit id. Exercitationem quam omnis facilis officiis nesciunt illum? Dicta!</p>
+        <a href="#" class="ctn">Learn More</a>
+     </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>WHY SAHIHI MEDIA</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis accusamus laboriosam, ducimus repellendus ullam hic ea autem voluptatem delectus consectetur. Voluptatum harum similique quia unde sapiente natus, doloremque laboriosam laudantium.</P>
+                <a href="#" class="ctn">Find Out</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./image/pic 2.jpg" alt="">
+                    <img src="./image/pic 3.jfif" alt="">
+                    <img src="./image/pic 4.jfif" alt="">
+                    <img src="./image/pic 5.jfif" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <section class="footer">
+     <p>Kisumu City, Kenya. Services also available online. Contact +254100802624 or +254746494615</p>
+    <p>Copyright Ⓒ Sahihi Media 2023</p>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-liks') 
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
